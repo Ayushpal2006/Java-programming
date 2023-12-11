@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Amstrong_numbers {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        System.out.println("Enter the Number :" + "  ");
+        System.out.print("Enter the Number :" + "  ");
         int n=in.nextInt();
         int a=n;
         int sum=0;
@@ -17,12 +17,12 @@ public class Amstrong_numbers {
             sum = sum + rem * rem * rem;
 
         }
-        if(sum==a){
+            if(sum==a){
             System.out.println("This is Armstrong_number");
-        }
-        else{
+            }
+            else{
             System.out.println("This is not Armstrong number");
-        }
+            }
 
     }
 }
